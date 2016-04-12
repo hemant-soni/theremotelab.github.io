@@ -49,7 +49,7 @@
 			           	.find("h1").addClass("animated fadeInDown show")
 			           	.next().addClass("animated fadeInUp show");
 			           		
-			   $(window).trigger('resize');		  			 
+			   //$(window).trigger('resize');		  			 
 			},
 			after: function(slider){
 			 	$(slider).find(".flex-active-slide")

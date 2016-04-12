@@ -601,7 +601,7 @@ hr {
 /* =================================================================== */
 
 header {
-	height: 66px;
+	height: 78px;
 	width: 100%;
 	position: fixed;
 	left: 0;
@@ -622,11 +622,17 @@ header.opaque {
 
 /* header logo */
 header .logo {
-	background: #Fa6900;
+	/*background: #Fa6900;*/
 	float: left;
 	width: auto;
+	height: auto;
+	padding-left: 12px;
 	margin-left: 15px;
 	margin-right: 30px;
+
+	margin-top: 7px;
+	margin-bottom: 5px;
+
 	z-index: 600;
 
 	/* add position relative since z-index only applies to
@@ -644,8 +650,8 @@ header .logo a {
 	color: transparent;
 	width: 114px;
 	height: 66px;
-	background: url("../images/logo.jpg") no-repeat center;
-	background-size: 61px 66px;
+	background: url("../images/logo-main.png") no-repeat center;
+	background-size: 109px 66px;
 }
 
 /* header social */
@@ -673,6 +679,10 @@ header .header-social li a {
 
 header .header-social li a:hover {
 	color: #Fa6900;
+}
+
+#main-header {
+   background-color: black;
 }
 
 /* media queries:
@@ -1993,7 +2003,14 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #testimonials {
-	background: #e4b101;
+	/* background: #0C8781; 
+	background: #0C7187; 
+	background: #80562D;
+	background: #69441F; */
+	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+
+	font: "merriweather-regular", sans-serif;
+
 	padding-top: 90px;
 	padding-bottom: 112px;
 	position: relative;
@@ -2016,7 +2033,10 @@ ul#nav li.current a:after {
 }
 
 #testimonial-slider p {
-	font: 27px/1.9 "merriweather-regular", sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+
+	font: 1.2em "merriweather-regular", sans-serif;
 	color: #FFFFFF;
 	padding: 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
@@ -2179,6 +2199,10 @@ ul#nav li.current a:after {
 	padding-left: 35px;
 	position: relative;
 	top: -6px;
+}
+
+#contactMessage {
+    resize: vertical;
 }
 
 /* media queries:
