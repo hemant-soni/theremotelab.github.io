@@ -839,6 +839,9 @@
 
             <!-- form -->
             <form name="contactForm" id="contactForm" method="post" action=""  >
+
+              <input type="hidden" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_format" value="plain" style="display:none" />
       			<fieldset>
 
                   <div class="group">
@@ -848,7 +851,7 @@
 	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
 	               </div>
                   <div>
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />
+	     				   <input name="_subject" type="text" id="contactSubject" placeholder="Subject"  value="" />
 	               </div>
                   <div>
 	                 	<textarea name="contactMessage"  id="contactMessage" placeholder="message" rows="10" cols="50" required ></textarea>
