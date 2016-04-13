@@ -229,7 +229,8 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "https://formspree.io/hello@theremotelab.com",
+		      dataType: "json",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
