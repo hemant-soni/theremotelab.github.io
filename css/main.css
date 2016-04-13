@@ -954,7 +954,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	background: #0F1215 url(../images/hero-bg.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2007,7 +2007,7 @@ ul#nav li.current a:after {
 	background: #0C7187; 
 	background: #80562D;
 	background: #69441F; */
-	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	background: #0F1215 url(../images/hero-bg.png) no-repeat center;
 
 	font: "merriweather-regular", sans-serif;
 
